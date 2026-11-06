@@ -1,0 +1,12 @@
+{
+  "customer": {
+    "firstName": "Sample",
+    "lastName": "X",
+    "postalCode": "123456"
+  },
+  "product": {
+    "name": "Sauce Labs Backpack",
+    "expectedPrice": "$29.99",
+    "quantity": 1
+  }
+}

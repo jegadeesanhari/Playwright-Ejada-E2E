@@ -1,0 +1,11 @@
+node_modules/
+.env
+
+# Playwright artifacts
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Allure artifacts
+allure-results/
+allure-report/
