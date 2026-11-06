@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      BASE_URL: ${{ vars.BASE_URL }}
+      BASE_URL: ${{ secrets.BASE_URL }}
       STANDARD_USER: ${{ secrets.STANDARD_USER }}
       LOCKED_OUT_USER: ${{ secrets.LOCKED_OUT_USER }}
       PROBLEM_USER: ${{ secrets.PROBLEM_USER }}
