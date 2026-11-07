@@ -42,7 +42,7 @@ jobs:
 
       # 4. Install only required browsers
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps chrome firefox
+        run: npx playwright install --with-deps chromium firefox
 
       # 5. Validate environment configuration
       - name: Validate Environment Configuration
