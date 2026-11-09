@@ -1,0 +1,8 @@
+
+{
+  "clientName": "EjadaPlaywrightAutomation",
+  "customerName": "Ejada QA Tester",
+  "updatedCustomerName": "Ejada Updated Customer",
+  "invalidBookId": 999999,
+  "invalidOrderId": "invalid-order-id"
+}

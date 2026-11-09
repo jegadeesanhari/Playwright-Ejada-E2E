@@ -25,6 +25,7 @@ jobs:
     timeout-minutes: 60
 
     env:
+      BOOKS_API_URL: ${{ secrets.BOOKS_API_URL }}
       BASE_URL: ${{ secrets.BASE_URL }}
       STANDARD_USER: ${{ secrets.STANDARD_USER }}
       LOCKED_OUT_USER: ${{ secrets.LOCKED_OUT_USER }}
@@ -78,8 +79,8 @@ jobs:
           "
 
       # 6. Execute all UI tests
-      - name: Run Playwright UI Tests
-        run: npx playwright test tests/ui/
+      - name: Run Playwright UI and API Tests
+        run: npx playwright test
 
       # 7. Setup Java for Allure reporting
       - name: Setup Java for Allure

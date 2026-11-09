@@ -83,6 +83,16 @@ export default defineConfig({
     //   name: 'Google Chrome',
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     // },
+
+        // API - No browser required
+    {
+      name: 'api',
+      testMatch: /api\/.*\.spec\.ts/,
+      use: {
+        baseURL: process.env.BOOKS_API_URL?.trim()
+          || 'https://simple-books-api.click'
+      }
+    }
   ],
 
   /* Run your local dev server before starting the tests */
