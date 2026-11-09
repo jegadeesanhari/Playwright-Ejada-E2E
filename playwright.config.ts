@@ -51,11 +51,13 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
+      testDir: './tests/ui',
       use: { ...devices['Desktop Chrome'] },
     },
 
     {
       name: 'firefox',
+      testDir: './tests/ui',
       use: { ...devices['Desktop Firefox'] },
     },
 
