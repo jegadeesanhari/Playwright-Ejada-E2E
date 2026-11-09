@@ -20,7 +20,7 @@ jobs:
   # ==========================================
 
   test:
-    name: Playwright UI Automation
+    name: Playwright UI & API Automation
     runs-on: ubuntu-latest
     timeout-minutes: 60
 
